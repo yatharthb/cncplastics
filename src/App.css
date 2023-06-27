@@ -32,3 +32,22 @@ body {
 .large-text li {
   font-size: 1.5em;
 }
+/* ... (Keep the existing styles) */
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 1.5em;
+  }
+
+  .large-text {
+    font-size: 1.2em;
+  }
+
+  .large-text li {
+    font-size: 1.2em;
+  }
+
+  .list-content {
+    font-size: 1.2em;
+  }
+}
